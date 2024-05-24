@@ -1,5 +1,5 @@
 # Profile platform
-#### A Modern portfolio for the Modern World.
+#### A Modern portfolio for the Modern World. An Instragram app for the developer community.
 
 
 ### Tech Stack
