@@ -17,4 +17,6 @@
 
 Portfolio page to be minimal for the start:
 
+![alt text](docs/portfolio.png)
+
 
