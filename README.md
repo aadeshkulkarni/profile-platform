@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Profile platform
+#### A Modern portfolio for the Modern World. An Instragram app for the developer community.
 
-## Getting Started
 
-First, run the development server:
+### Tech Stack
+- NextJS (Frontend + Backend)
+- MongoDB (NoSQL DB)
+- NextAuth for authentication
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Initial steps:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Task 1 | Setup the codebase using create-next-app.
+- Task 2 | Develop a static portfolio page to kick off the project. (Use Tailwind + Shadcn for CSS)
+- Task 3 | Setup a MongoDB Instance on cloud and connect it to the codebase.
+- Task 4 | Setup NextAuth (Cookie based authentication for now)
+- Task 5 | Portfolio listing page.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+Portfolio page to be minimal for now:
+- Profile picture
+- User name
+- Caption
+- 4 Social media icons with profile redirection
+- Upto 2 link buttons that can redirect to user's project / business / anything they wish to emphasize.
 
-To learn more about Next.js, take a look at the following resources:
+![alt text](docs/portfolio.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The app should eventually have profile templates that users can select for their profile.
 
-## Deploy on Vercel
+Something like this:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![alt text](docs/template.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+User can also create their own templates which can be reused by other users.
