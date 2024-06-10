@@ -10,11 +10,11 @@
 
 ### Initial steps:
 
-- Task 1 | Setup the codebase using create-next-app.
-- Task 2 | Develop a static portfolio page to kick off the project. (Use Tailwind + Shadcn for CSS)
-- Task 3 | Setup a MongoDB Instance on cloud and connect it to the codebase.
-- Task 4 | Setup NextAuth (Cookie based authentication for now)
-- Task 5 | Portfolio listing page.
+- Task 1 | 🟢 Setup the codebase using create-next-app.
+- Task 2 | 🔵 Develop a static portfolio page to kick off the project. (Use Tailwind + Shadcn for CSS)
+- Task 3 | 🔵 Setup a MongoDB Instance on cloud and connect it to the codebase.
+- Task 4 | 🟢 Setup NextAuth (Cookie based authentication for now)
+- Task 5 | 🔴 Portfolio listing page.
 
 
 Portfolio page to be minimal for now:
