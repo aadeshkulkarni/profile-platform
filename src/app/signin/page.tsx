@@ -13,7 +13,7 @@ export default function () {
 		router.push("/");
 	}
 	return (
-		<div className="w-screen h-screen flex flex-col justify-center items-center gap-4 bg-gradient-to-r from-emerald-400 to-cyan-400">
+		<div className="w-screen h-screen flex flex-col justify-center items-center gap-4 bg-gradient-to-r from-gray-800 to-slate-900">
 			<div className="w-full md:w-[400px] flex flex-col justify-center items-center gap-4 shadow-lg p-4 md:p-12 md:bg-black md:bg-opacity-10">
 				<h1 className="text-xl font-semibold tracking-tight">Let's get started</h1>
 				<div className="w-full flex flex-col justify-center items-center gap-4">
